@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>LovroIT</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" type="images/png" href="images/logo.ico" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Lovro Kozlovec" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="servis" />
+  </head>
+
+  <body>
+    <div class="menu">
+      <a class="active" href="index.html">Početna stranica</a>
+      <a href="vijesti.html">Vijesti</a>
+      <a href="onama.html">O nama</a>
+      <a href="galerija.html">Galerija</a>
+      <a href="kontakt.html">Kontakt</a>
+    </div>
+
+    <div class="boxtext">
+      <div class="textbox">
+        <p>&nbsp;</p>
+        <div class="bounce-top">
+          <h1>Dobrodošli u LovroIT</h1>
+        </div>
+        <div class="text-focus-in">
+          <h2>Vaš partner za IT usluge!</h2>
+          <p>
+            Mi smo stručni tim koji pruža visokokvalitetna IT rješenja
+            prilagođena vašem poslovanju. Bez obzira na veličinu vaše tvrtke,
+            nudimo širok spektar usluga, uključujući razvoj softvera, održavanje
+            mreža i zaštitu podataka.
+          </p>
+
+          <p>
+            Naš cilj je unaprijediti vaše poslovanje kroz suvremenu tehnologiju.
+            Sa stručnim timom i partnerstvima s vodećim brendovima, obećavamo
+            efikasnost i konkurentske prednosti na tržištu.
+          </p>
+
+          <p>
+            Istražite naše usluge i saznajte kako LovroIT može podržati vaš
+            uspjeh. Hvala vam na posjeti, radujemo se suradnji s vama!
+          </p>
+        </div>
+        <p>&nbsp;</p>
+        <div class="wrapper">
+          <input type="checkbox" id="click" />
+          <label class="btn-1" for="click">Pretplati se</label>
+          <div class="field">
+            <input type="text" placeholder="Email Address" />
+            <label for="click" onclick="myF()" class="btn-2"
+              >Pretplati se</label
+            >
+            <script>
+              function myF() {
+                alert("Uspješna pretplata!");
+                window.location.href = "onama.html";
+              }
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="background">
+      <img src="images/pozadina.png" alt="pozadina" class="pozadina" />
+    </div>
+  </body>
+  <footer>
+    <div class="footer">
+      <p>Copyright &copy; Lovro Kozlovec</p>
+    </div>
+  </footer>
+</html>
